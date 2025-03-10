@@ -1,0 +1,33 @@
+.item {
+    display: flex;
+    justify-content: c;
+    align-items: center;
+    flex-direction: row;
+    width: 320px;
+    max-width: 400px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.button {
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: auto;
+}
+
+.name {
+    margin: 0;
+}
+
+.number {
+    margin: 0;
+}
