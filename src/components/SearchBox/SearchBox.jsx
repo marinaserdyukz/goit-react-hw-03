@@ -8,8 +8,8 @@ export default function SearchBox({ value, onChange }) {
         <input
           type="text" 
           value={value} 
+          className={css.input}
           onChange={(e) => onChange(e.target.value)} 
-          placeholder="Enter name..." 
         />
       </label>
     </div>
